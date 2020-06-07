@@ -69,7 +69,7 @@ module.exports = grunt => {
             },
             mode: 'development',
             devtool: 'source-map',
-            watch: true,
+            watch: false,
             resolve: {
                 extensions: ['.ts', '.js'],
             },
