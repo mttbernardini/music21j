@@ -71,7 +71,7 @@
     "test": "tests"
   },
   "scripts": {
-    "prepare": "grunt webpack",
+    "prepare": "npm run build",
     "build": "grunt webpack",
     "postinstall": "sh scripts/postinstall.bash",
     "test": "echo \"Error: no test specified\" && exit 1"
