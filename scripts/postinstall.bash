@@ -11,5 +11,5 @@ curl https://codeload.github.com/cuthbertLab/midi-js-soundfonts/zip/master > sou
 if [ ! -f "${BASEDIR}/src/music21.js" ]; then
     echo 'Symlinking music21.js for use with require'
 
-    (cd "${BASEDIR}"/src || exit 1; ln -s ../releases/music21.debug.js music21.js)
+    (cd "${BASEDIR}"/src || exit 1; ln -s ../lib/music21.debug.js music21.js)
 fi
