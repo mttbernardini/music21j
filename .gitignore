@@ -2,7 +2,7 @@
 node_modules/
 
 # built files
-lib/
+releases/
 tests/music21.tests.js
 tests/music21.tests.js.map
 

@@ -2,7 +2,7 @@
   "name": "music21j",
   "version": "0.9.43",
   "description": "A toolkit for computer-aided musicology, Javascript version",
-  "main": "lib/music21.debug.js",
+  "main": "releases/music21.debug.js",
   "files": [
     ".editorconfig",
     ".eslintignore",

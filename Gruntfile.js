@@ -14,7 +14,7 @@ module.exports = grunt => {
         + ' * http://github.com/cuthbertLab/music21j\n'
         + ' */\n';
     const BASE_DIR = __dirname;
-    const BUILD_DIR = path.join(BASE_DIR, 'lib');
+    const BUILD_DIR = path.join(BASE_DIR, 'releases');
     const DOC_DIR = path.join(BASE_DIR, 'doc');
     const TEST_DIR = path.join(BASE_DIR, 'tests');
 
