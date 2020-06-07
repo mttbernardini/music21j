@@ -71,7 +71,7 @@
     "test": "tests"
   },
   "scripts": {
-    "prepublishOnly": "cp build/* releases/",
+    "prepare": "grunt webpack",
     "postinstall": "sh scripts/postinstall.bash",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
