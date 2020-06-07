@@ -1,10 +1,8 @@
 #node
 node_modules/
-node_modules/grunt/package.json
 
-build/*.js
-build/*.map
-
+# built files
+lib/
 tests/music21.tests.js
 tests/music21.tests.js.map
 
@@ -59,9 +57,7 @@ nosetests.xml
 # Mr Developer
 .mr.developer.cfg
 
-soundfonts/*
-
-node_modules/grunt-contrib-uglify/package.json
+soundfonts/
 
 # PyCharm
 .idea/encodings.xml
@@ -70,8 +66,3 @@ node_modules/grunt-contrib-uglify/package.json
 .idea/music21j.iml
 .idea/vcs.xml
 .idea/workspace.xml
-
-
-# Built tests
-tests/music21.tests.js
-tests/music21.tests.js.map
