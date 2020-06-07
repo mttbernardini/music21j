@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+if [ -d soundfonts ]; then
+	echo "Soundfonts already downloaded, skipping..."
+	exit 0
+fi
+
 echo 'Downloading orchestral soundfonts (about 90MB)'
 
 BASEDIR=$(dirname "$(dirname "$0")")
