@@ -561,8 +561,8 @@ export class PartExporter extends XMLExporterBase {
 }
 
 const _classesToMeasureMethods = [
-	['Note', 'noteToXml'],
-	['GeneralNote', 'noteToXml'],
+    ['Note', 'noteToXml'],
+    ['GeneralNote', 'noteToXml'],
     // NoChord
     // ChordWithFretBoard
     // ChordSymbol
